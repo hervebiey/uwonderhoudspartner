@@ -16,7 +16,7 @@ export function CallToAction() {
 						Uitmuntendheid
 					</h2>
 					<p className="mt-4 text-lg text-gray-300">
-						Met meer dan 1000 onderhoudswerken per jaar, zijn wij de onbetwiste expert in gasketelonderhoud.
+						Iedere technieker voert meer dan 1000 onderhoudswerken per jaar uit, wat hen de onbetwiste experts in gasketelonderhoud maakt.
 					</p>
 				</div>
 			</Container>
