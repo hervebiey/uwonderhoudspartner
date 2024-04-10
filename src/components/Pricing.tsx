@@ -14,10 +14,6 @@ const plans = [
 		price: '€165 / 2 jaar',
 		description:
 			'Ontvang deskundig onderhoud om de twee jaar voor een blijvende efficiëntie en betrouwbaarheid van uw gasketel. Onze Standaard Onderhoud biedt alles wat u nodig heeft voor een gerust gevoel.',
-		button: {
-			label: 'Contacteer ons',
-			href: 'mailto:info@uwonderhoudspartner.be',
-		},
 		features: [
 			'Tweejaarlijks volledig onderhoud',
 			'Optimalisatie van efficiëntie',
@@ -32,10 +28,6 @@ const plans = [
 		price: '€195 / 2 jaar',
 		description:
 			'Upgrade naar Uitgebreid Onderhoud Plus voor alles in het Standaard pakket, plus extra diensten die de levensduur van uw installatie maximaliseren en u volledige gemoedsrust geven.',
-		button: {
-			label: 'Contacteer ons',
-			href: 'mailto:info@uwonderhoudspartner.be',
-		},
 		features: [
 			'Inclusief alle Standaard diensten',
 			'Inspectie elke 2 jaar',
@@ -72,7 +64,6 @@ function Plan({
 	              name,
 	              price,
 	              description,
-	              button,
 	              features,
 	              logomarkClassName,
 	              featured = false,
@@ -80,10 +71,6 @@ function Plan({
 	name: string
 	price: string
 	description: string
-	button: {
-		label: string
-		href: string
-	}
 	features: Array<string>
 	logomarkClassName?: string
 	featured?: boolean
@@ -143,14 +130,6 @@ function Plan({
 					))}
 				</ul>
 			</div>
-			<Button
-				href={button.href}
-				color={featured ? 'cyan' : 'gray'}
-				className="mt-6"
-				aria-label={`Get started with the ${name} plan for ${price}`}
-			>
-				{button.label}
-			</Button>
 		</section>
 	)
 }

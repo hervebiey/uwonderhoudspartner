@@ -112,7 +112,7 @@ export function Header() {
 													</div>
 													<div className="mt-8 flex flex-col gap-4">
 														<Button href="mailto:info@uwonderhoudspartner.be" variant="outline">
-															Email Ons
+															Contacteer Ons
 														</Button>
 														<Button href="tel:+32 487 38 43 23">+32 487 38 43 23</Button>
 													</div>
@@ -124,7 +124,7 @@ export function Header() {
 							)}
 						</Popover>
 						<Button href="mailto:info@uwonderhoudspartner.be" variant="outline" className="hidden lg:block">
-							Email Ons
+							Contacteer Ons
 						</Button>
 						<Button href="tel:+32 487 38 43 23" className="hidden lg:block">
 							+32 487 38 43 23
