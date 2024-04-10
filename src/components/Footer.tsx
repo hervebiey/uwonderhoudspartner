@@ -56,7 +56,7 @@ export function Footer() {
 				<div
 					className="flex flex-col items-center border-t border-gray-200 pb-12 pt-8 md:flex-row-reverse md:justify-between md:pt-6">
 					<p className="mt-6 text-sm text-gray-500 md:mt-0">
-						&copy; Copyright {new Date().getFullYear()} Covalliant. Alle rechten voorbehouden.
+						Copyright &copy; {new Date().getFullYear()} Covalliant. Alle rechten voorbehouden.
 					</p>
 					<nav className="flex gap-8 w-full justify-center md:w-auto">
 						<NavLinks/>
